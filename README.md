@@ -22,31 +22,88 @@
 
 ## 🚀 Core Projects
 
-### 🌟 RouteDock — Unified payment execution for autonomous agents on Stellar
-- Abstraction layer over three Stellar payment protocols (x402, MPP charge, MPP session)
-- Published npm package with live testnet agents running against two production providers
-- Soroban smart contract vaults with daily spend policies
-- Session key escrow and off-chain voucher verification
+### 🌟 [vault](https://github.com/abhaysharma99/vault-june-2025) — On-chain asset vault with access control
+- Secure deposit/withdraw flows with role-based permissions
+- Soroban-compatible vault logic with daily spend caps
+- Session key escrow and off-chain voucher support
+- Deployed and tested across Stellar testnet
 
-### ⚡ RelayCore — Agentic finance platform on Cronos EVM
-- x402 middleware + Facilitator settlement (EIP-3009 authorization)
-- MCP server exposing **63 agent tools** (payments, agents, services, trading, RWA)
-- Real-time payment indexing and reputation scoring
-- LangGraph + Claude RAG for agent decision-making
-- CLI toolkit for agent scaffolding and deployment
-- Dashboard with realtime session tracking
+### 🔵 [Trust-Lens-Near-Protocol](https://github.com/abhaysharma99/Trust-Lens-Near-Protocol) — Reputation layer on NEAR
+- On-chain trust scoring for agents and wallets
+- Attestation-based reputation accumulation
+- Cross-contract calls with verifiable credential anchoring
+- Built for NEAR Protocol with Rust smart contracts
 
-### 💸 Remlo — Multi-chain payroll and escrow for borderless compensation
-- Tempo moderato + Solana payroll primitives
-- Three-party LLM-judged escrow with pluggable validators
-- ERC-8004 + Solana Attestation Service reputation credentials
-- Streaming vesting and yield routing
+### 💧 [ai-liquidity-guardians](https://github.com/abhaysharma99/ai-liquidity-guardians) — AI-driven liquidity management
+- Autonomous agents monitoring and rebalancing liquidity pools
+- LangGraph + Claude decision engine for pool optimization
+- Real-time price feed integration and slippage guards
+- MCP server exposing liquidity tools to agent runtimes
 
-### 🔒 BlindMarkets — Privacy-preserving Bitcoin intent execution
-- Privacy envelope (ECDH + AES-GCM encryption)
-- Coordinator with auction finalization
-- Starknet settlement and observer reconciliation
-- Next.js + Rust monorepo (gateway, coordinator, observer, solver)
+### 🔍 [indexer-go](https://github.com/abhaysharma99/indexer-go) — High-performance on-chain indexer in Go
+- Streaming blockchain event ingestion and storage
+- Multicall batching for efficient RPC usage
+- GraphQL API layer for agent discovery queries
+- Modular chain adapters for EVM-compatible networks
+
+### 📄 [dex-poc-contracts](https://github.com/abhaysharma99/dex-poc-contracts) — DEX proof-of-concept contracts
+- AMM core with constant product formula
+- Fee-tier routing and token pair registry
+- Foundry test suite with invariant fuzzing
+- Gas-optimized swap paths for EVM deployment
+
+### 🌐 [orichalcos](https://github.com/abhaysharma99/orichalcos) — Cross-chain intent execution framework
+- Intent-based swap routing across multiple chains
+- Solver network with auction-based settlement
+- Privacy envelope using ECDH + AES-GCM encryption
+- Starknet settlement layer with Cairo contracts
+
+### 🏠 [SkyEscrow](https://github.com/abhaysharma99/SkyEscrow) — Trustless three-party escrow
+- LLM-judged dispute resolution with pluggable validators
+- ERC-8004 reputation credentials on settlement
+- Streaming vesting and milestone-based release
+- Solana Attestation Service integration for credentials
+
+### 🎰 [coin-flip](https://github.com/abhaysharma99/coin-flip) — Verifiable on-chain randomness game
+- Chainlink VRF for provably fair outcomes
+- Commit-reveal scheme as fallback randomness
+- Frontend with wagmi hooks and real-time result tracking
+
+### 🥷 [stealth-7702](https://github.com/abhaysharma99/stealth-7702) — Stealth addresses with EIP-7702
+- ECDH-based stealth address generation per EIP-5564
+- EIP-7702 account upgrade for stealth key delegation
+- Full scan and spend flow with zero on-chain linkability
+- Hardhat deploy + Foundry invariant tests
+
+### 🔐 [erc5564-stealth](https://github.com/abhaysharma99/erc5564-stealth) — ERC-5564 stealth address standard
+- Reference implementation of ERC-5564 stealth addresses
+- Announcer registry contract for receiver scanning
+- TypeScript SDK for generating and scanning stealth keys
+- Privacy-preserving transfers with standard compliance
+
+### ⚙️ [Smart-claim-cb](https://github.com/abhaysharma99/Smart-claim-cb) — Automated claim execution on Base
+- x402 payment middleware for claim gating
+- EIP-3009 permit-based authorization flow
+- MCP server for autonomous claim agent integration
+- Deployed on Base with Coinbase paymaster support
+
+### 🔑 [porto-multisig](https://github.com/abhaysharma99/porto-multisig) — Multisig wallet with session keys
+- M-of-N threshold signing with role separation
+- Session key delegation with time and spend limits
+- Porto-compatible account abstraction interface
+- Bundler integration for gasless UX
+
+### 🐾 [clawpfp](https://github.com/abhaysharma99/clawpfp) — On-chain PFP NFT collection
+- Fully on-chain trait generation and SVG rendering
+- Merkle-proof allowlist minting
+- Royalty enforcement via ERC-2981
+- Next.js mint site with wallet connect
+
+### 🏦 [vault-manager](https://github.com/abhaysharma99/vault-manager) — Multi-strategy DeFi vault manager
+- Strategy registry with pluggable yield adapters
+- Automated rebalancing via keeper network
+- Solidity vault core with Foundry fuzz tests
+- Dashboard with real-time APY and TVL tracking
 
 ---
 
