@@ -58,20 +58,23 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-green?style=for-the-badge)
 ![Claude](https://img.shields.io/badge/Claude_AI-orange?style=for-the-badge)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Wallet Integration](https://img.shields.io/badge/Wallet_Integration_%26_Session_Mgmt-555?style=for-the-badge)
 
 **Payment Protocols**
 
 ![x402](https://img.shields.io/badge/x402-HTTP_402-blue?style=for-the-badge)
 ![EIP-3009](https://img.shields.io/badge/EIP--3009-Ethereum-3C3C3D?style=for-the-badge&logo=ethereum)
+![ERC-8004](https://img.shields.io/badge/ERC--8004-Reputation-6A0DAD?style=for-the-badge)
 ![MPP](https://img.shields.io/badge/MPP-Stellar-black?style=for-the-badge&logo=stellar)
 ![Soroban](https://img.shields.io/badge/Soroban-Sessions-purple?style=for-the-badge)
+![SAS](https://img.shields.io/badge/Solana_Attestation_Service-9945FF?style=for-the-badge&logo=solana&logoColor=white)
 
 **Blockchain Networks**
 
-![Stellar](https://img.shields.io/badge/Stellar-7D00FF?style=for-the-badge&logo=stellar&logoColor=white)
+![Stellar](https://img.shields.io/badge/Stellar_(Soroban,_SAC,_MPP)-7D00FF?style=for-the-badge&logo=stellar&logoColor=white)
 ![Cronos](https://img.shields.io/badge/Cronos_EVM-002D74?style=for-the-badge)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![Starknet](https://img.shields.io/badge/Starknet-FF4A1C?style=for-the-badge)
+![Solana](https://img.shields.io/badge/Solana_(Anchor,_SAS)-9945FF?style=for-the-badge&logo=solana&logoColor=white)
+![Starknet](https://img.shields.io/badge/Starknet_(Cairo)-FF4A1C?style=for-the-badge)
 ![Base](https://img.shields.io/badge/Base-0052FF?style=for-the-badge)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 
@@ -79,10 +82,11 @@
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm_workspaces-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-yellow?style=for-the-badge)
 ![Foundry](https://img.shields.io/badge/Foundry-%23FF6B35?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-white?style=for-the-badge&logo=shadcnui&logoColor=black)
 
 ---
 
